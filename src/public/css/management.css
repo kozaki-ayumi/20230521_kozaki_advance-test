@@ -1,0 +1,110 @@
+.header {
+    text-align: center;
+}
+
+.form__group-name--gender {
+    display:flex;
+    flex-direction: row;
+}
+
+
+.contact-form__content {
+    display: block;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    border: solid #000;
+
+}
+
+.form__input--text-gender {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.form__input--text-gender__content {
+    margin-right: 30px;
+}
+
+.gender__name {
+    margin-left: 10px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset__button {
+    text-align: center;
+}
+
+.reset__button-submit {
+    border: none;
+    background: #f9f7f7;
+    color: black;
+    border-bottom: solid;
+}
+
+.w-5{ 
+    width: 30px;
+    height: 30px;
+}
+
+.table {
+    width:90%;
+    margin:30px auto;
+}    
+
+.table__name {
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: #000 solid;
+}
+
+.table__row {
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+.delete__button-submit {
+    text-align: center;
+    padding: 10px 10px;
+    height: 30px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    
+}

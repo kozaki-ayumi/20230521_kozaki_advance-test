@@ -1,0 +1,51 @@
+.header {
+    text-align: center;
+}
+
+
+.contact-form__content {
+    max-width: 1000px;
+    margin: 50px auto; 
+
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}    
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid white;
+}
+
+.form__button {
+    margin-top: 30px;
+   text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}    
+
+.fix__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fix__button-submit {
+    border: none;
+    background: white;
+    color: black;
+    border-bottom: solid;
+}

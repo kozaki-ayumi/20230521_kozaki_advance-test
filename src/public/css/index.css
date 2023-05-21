@@ -1,0 +1,141 @@
+.header {
+   text-align: center;
+}
+
+
+.contact-form__content {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__group___name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}   
+
+.form__input--text-name  {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form__input--text-first--name input{
+    padding: 10px;
+    width: 290px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+}
+
+.form__input--text-last--name input{
+    padding: 10px;
+    width: 290px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__example {
+    display: flex;
+    width: 600px;
+    color: #ddd;
+}
+
+.form__example-name {
+    width: 300px;
+    padding: 10px 30px;
+    color: #ddd;
+
+}
+
+.form__input--text-gender {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.form__input--text-gender__content {
+    margin-right: 30px;
+}
+
+.gender__name {
+    margin-left: 10px;
+}
+
+.postcode__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__input--text--postcode  input{
+    padding: 10px;
+    width: 565px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__input--text__opinion {
+    padding: 10px;
+    width: 600px;
+    height: 120px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form__input--text-name {
+    height: 40px;
+    width: 20px;
+
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
